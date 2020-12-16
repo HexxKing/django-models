@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth import get_user_model
 
 #I am following directions in the Django for Beginners (3.1) book, by William S. Vincent - Hexx King
 
