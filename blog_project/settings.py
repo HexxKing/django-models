@@ -119,6 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-# TemplateSyntaxError at /
-# Invalid block tag on line 7 in base.html: 'static'. Did you forget to register or load this tag?
-# STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
+STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
